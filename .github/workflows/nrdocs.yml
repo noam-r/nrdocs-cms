@@ -5,6 +5,7 @@ on:
     branches: [main]
     paths:
       - 'docs/**'
+      - '.github/workflows/nrdocs.yml'
   workflow_dispatch:
 
 permissions:
