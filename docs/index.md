@@ -158,3 +158,4 @@ The first version should prove that a blog can be:
 - assisted by AI
 - refreshed through scheduled workflows
 - exportable as a Markdown project
+
