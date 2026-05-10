@@ -24,13 +24,7 @@ jobs:
           node-version: '20'
 
       - name: Install nrdocs CLI
-        run: |
-          git clone https://github.com/noam-r/nrdocs.git /tmp/nrdocs
-          cd /tmp/nrdocs
-          npm install -g pnpm
-          pnpm install
-          pnpm build
-          pnpm link --global --dir packages/cli
+        run: npm install -g nrdocs
 
       - name: Publish docs
         run: nrdocs publish --docs-dir docs
