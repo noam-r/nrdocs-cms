@@ -29,4 +29,4 @@ jobs:
       - name: Publish docs
         run: nrdocs publish --docs-dir docs
         env:
-          NRDOCS_API_URL: https://nrdocs2.quinovi.com
+          NRDOCS_API_URL: https://nrdocs-default.nrdocs.workers.dev
