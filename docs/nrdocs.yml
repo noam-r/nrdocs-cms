@@ -1,0 +1,6 @@
+# nrdocs site configuration
+site:
+  title: "nrdocs CMS"
+
+content:
+  index: index.md

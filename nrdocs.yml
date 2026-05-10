@@ -1,0 +1,40 @@
+site:
+  name: nrdocs CMS Concept
+  description: A serverless, lifecycle-aware, LLM-assisted blogging/CMS platform concept.
+  url: https://nrdocs2.quinovi.com
+  timezone: Asia/Jerusalem
+
+locales:
+  default: en
+  supported:
+    - code: en
+      label: English
+      dir: ltr
+      url_prefix: /
+
+nav:
+  - title: Home
+    path: index.md
+  - title: Why This Exists
+    path: why.md
+  - title: Architecture
+    path: architecture.md
+  - title: Managed vs Self-Hosted
+    path: managed-vs-self-hosted.md
+  - title: Content Lifecycle
+    path: content-lifecycle.md
+  - title: AI & Automations
+    path: ai-and-automations.md
+  - title: Templates & Plugins
+    path: templates-and-plugins.md
+  - title: Security, Localization & Costs
+    path: security-localization-costs.md
+  - title: MVP Scope
+    path: mvp.md
+
+content:
+  docs_dir: docs
+
+theme:
+  name: default
+  direction: ltr
